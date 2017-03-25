@@ -6,7 +6,9 @@ public class BinaryNode {
 	BinaryNode left;
 	BinaryNode right;
 	
-	
+	public BinaryNode(int data){
+		this.data = data;
+	}
 	public BinaryNode(int data, BinaryNode left, BinaryNode right) {
 		this.data = data;
 		this.left = left;
